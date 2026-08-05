@@ -230,6 +230,4 @@ catalogued in [`planning-docs/roadmap.md`](../../planning-docs/roadmap.md):
    excerpts into the *forecast* (not just the evaluator) via
    `CategoricalProbabilityLLMPredictorConfig.user_prompt_suffix` or the
    `build_boc_news_config` retrieval seam, and measure the lift.
-2. **Live forecasting** — forecast each upcoming announcement the day before it
-   happens: genuinely out-of-sample, and the honest test backtest leakage
-   precludes.
+

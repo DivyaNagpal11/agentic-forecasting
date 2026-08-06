@@ -56,3 +56,4 @@ implementations/**/data/
 data/yfinance/
 
 .claude/
+aieng-forecasting/datasets/banks_monthly_m4.csv

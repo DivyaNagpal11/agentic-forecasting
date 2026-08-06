@@ -1,4 +1,0 @@
-id,timestamp,target_name,predictions,0.1,0.5,0.9
-CIBC_total_deposits,2026-05-31,target,814317.25,793661.1,814317.25,835766.0
-CIBC_total_deposits,2026-06-30,target,816548.1,792740.5,816548.1,837516.1
-CIBC_total_deposits,2026-07-31,target,819155.0,793960.75,819155.0,841243.25

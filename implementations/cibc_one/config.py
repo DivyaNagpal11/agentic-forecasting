@@ -50,3 +50,11 @@ TIMESFM_PATCH_SIZE = 32
 
 # ── Plot history window (months of history to show) ──────────────────────────
 PLOT_HISTORY_MONTHS = 48
+
+# ── Covariates (enriched file: total deposits + macro) ───────────────────────
+ENRICHED_CSV = DATA_DIR / "cibc_monthly_deposits_enriched.csv"
+COVARIATE_COLS = ["cpi_all_items", "boc_bank_rate", "boc_target_rate"]
+# How to fill future covariates for horizon months that have no actuals yet
+# (May-Jul 2026): "ffill" = carry last known value forward; "actual" = only
+# use months that have real covariates (shortens the horizon).
+FUTURE_COVARIATE_MODE = "ffill"
